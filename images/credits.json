@@ -352,5 +352,23 @@
   "author": "Unknown authorUnknown author",
   "lic": "CC0",
   "page": "https://commons.wikimedia.org/wiki/File:Tinned_tomatoes.jpg"
+ },
+ "banners/hero": {
+  "title": "File:Langenstein's Supermarket Uptown New Orleans, Center aisle, March 2021 01.jpg",
+  "author": "Infrogmation of New Orleans",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Langenstein%27s_Supermarket_Uptown_New_Orleans,_Center_aisle,_March_2021_01.jpg"
+ },
+ "banners/produce": {
+  "title": "File:Produce section at Publix.jpg",
+  "author": "Nielsoncaetanosalmeron",
+  "lic": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Produce_section_at_Publix.jpg"
+ },
+ "banners/pantry": {
+  "title": "File:Veganz Berlin Vegan Products Grocery Store Shelf 15592862090.jpg",
+  "author": "Tony Webster",
+  "lic": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Veganz_Berlin_Vegan_Products_Grocery_Store_Shelf_15592862090.jpg"
  }
 }

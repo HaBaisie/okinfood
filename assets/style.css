@@ -34,7 +34,13 @@ h2{font-size:1.3rem;margin:0;font-weight:800;letter-spacing:-.01em}
 .toast{position:fixed;left:50%;bottom:78px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 18px;border-radius:6px;z-index:60;font-size:.9rem}
 
 /* hero */
-.hero{margin-top:20px;border-radius:10px;background:var(--green) center/cover no-repeat;min-height:320px;display:flex;align-items:center;overflow:hidden}
+.hero{margin-top:20px;border-radius:12px;background:var(--green) center/cover no-repeat;min-height:440px;display:flex;align-items:center;overflow:hidden}
+.hero .btn.ghost{background:transparent;color:#fff;border:2px solid #fff;margin-left:6px}.hero .btn.ghost:hover{background:rgba(255,255,255,.15)}
+.promos{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:16px 0}
+.promo{position:relative;min-height:210px;border-radius:12px;background:var(--soft) center/cover;display:flex;align-items:flex-end;text-decoration:none;color:#fff;overflow:hidden}
+.promo span{padding:18px;display:flex;flex-direction:column}.promo small{font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;opacity:.9}.promo b{font-size:1.25rem}
+.promo:hover{box-shadow:0 6px 22px rgba(0,0,0,.2)}
+@media(max-width:700px){.promos{grid-template-columns:1fr}.promo{min-height:150px}.hero{min-height:380px}}
 .herotxt{padding:40px;max-width:560px;color:#fff}
 .hero h1{font-size:2.4rem;margin:6px 0 12px}
 .hero p{margin:0 0 20px;opacity:.95}

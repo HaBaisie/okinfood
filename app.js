@@ -87,11 +87,16 @@ function viewHome() {
   const by = c => products.filter(p => p.category === c);
   const deals = products.filter(p => p.old);
   return `
-  <section class="hero" style="background-image:url(images/hero.jpg)">
-    <div class="herotxt"><p class="eyebrow">Naija foodstuff, delivered</p>
-    <h1>Everything for your soup pot, in one order.</h1>
-    <p>Yam, plantain, pepper, egusi, rice and the rest of your market list. Order online and we bring it to your door, or you collect in store.</p>
-    <a class="btn" href="#/shop?cat=${encodeURIComponent('Naija Ingredients')}">Shop Naija ingredients</a></div>
+  <section class="hero" style="background-image:linear-gradient(90deg,rgba(9,38,20,.9),rgba(9,38,20,.55) 55%,rgba(9,38,20,.05)),url(images/banners/hero.jpg)">
+    <div class="herotxt"><p class="eyebrow">Okin Food Supermarket</p>
+    <h1>Fully stocked shelves. Delivered to you.</h1>
+    <p>Fresh produce, Naija foodstuff, pantry staples and household essentials. Order online and we bring it to your door, or you collect in store.</p>
+    <a class="btn" href="#/shop">Start shopping</a> <a class="btn ghost" href="#/shop?cat=${encodeURIComponent('Naija Ingredients')}">Naija ingredients</a></div>
+  </section>
+  <section class="promos">
+    <a class="promo" style="background-image:linear-gradient(0deg,rgba(0,0,0,.65),rgba(0,0,0,.05) 70%),url(images/banners/produce.jpg)" href="#/shop?cat=${encodeURIComponent('Fruits & Vegetables')}"><span><small>Fresh every day</small><b>Fruits &amp; Vegetables</b></span></a>
+    <a class="promo" style="background-image:linear-gradient(0deg,rgba(0,0,0,.65),rgba(0,0,0,.05) 70%),url(images/banners/pantry.jpg)" href="#/shop?cat=${encodeURIComponent('Soup & Cooking Essentials')}"><span><small>Stock your pantry</small><b>Soup &amp; Cooking Essentials</b></span></a>
+    <a class="promo" style="background-image:linear-gradient(0deg,rgba(0,0,0,.65),rgba(0,0,0,.05) 70%),url(${tilePhoto('Naija Ingredients')})" href="#/shop?cat=${encodeURIComponent('Naija Ingredients')}"><span><small>From the market</small><b>Naija Ingredients</b></span></a>
   </section>
   <section class="usp">
     <div><b>Wide range</b><span>Foodstuff, drinks, household</span></div>
