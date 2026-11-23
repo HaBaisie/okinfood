@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Okin Food Supermarket · Fresh groceries delivered</title>
+<meta name="description" content="Order rice, oil, provisions, fresh produce and more online from Okin Food Supermarket. Home delivery or store pickup.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap bar">
+    <a class="logo" href="#/">🛒 <span>Okin<b>Food</b></span></a>
+    <form class="search" id="searchForm">
+      <input type="search" id="q" placeholder="Search rice, oil, milk…" aria-label="Search products">
+      <button aria-label="Search">Search</button>
+    </form>
+    <a class="cartlink" href="#/cart">Cart <span class="badge" id="badge">0</span></a>
+  </div>
+  <nav class="wrap cats" id="catnav"></nav>
+</header>
+<div class="wrap"><div class="flash" id="toast" hidden></div></div>
+<main class="wrap" id="app"><p>Loading…</p></main>
+<footer class="foot">
+  <div class="wrap" id="footinfo"></div>
+  <p class="copy">© <span id="yr"></span> Okin Food Supermarket</p>
+</footer>
+
+<!-- Netlify Forms: this hidden form lets Netlify detect the "order" form. Orders are emailed from here. -->
+<form name="order" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+  <input name="bot-field">
+  <input name="ref"><input name="name"><input name="phone"><input name="email">
+  <input name="method"><input name="address"><input name="payment"><input name="note">
+  <textarea name="items"></textarea>
+  <input name="subtotal"><input name="delivery_fee"><input name="total">
+</form>
+
+<script src="app.js"></script>
+</body>
+</html>

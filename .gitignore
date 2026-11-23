@@ -1,5 +1,2 @@
-config.php
-data/*.sqlite
-data/*.sqlite-*
-uploads/*
-!uploads/.htaccess
+.DS_Store
+node_modules

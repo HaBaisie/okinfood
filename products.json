@@ -1,0 +1,342 @@
+[
+    {
+        "id": 1,
+        "name": "Premium Long Grain Rice",
+        "category": "Rice & Grains",
+        "price": 78000,
+        "unit": "50kg bag",
+        "emoji": "🍚",
+        "image": "",
+        "featured": true
+    },
+    {
+        "id": 2,
+        "name": "Parboiled Rice",
+        "category": "Rice & Grains",
+        "price": 4200,
+        "unit": "5kg",
+        "emoji": "🍚",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 3,
+        "name": "Brown Beans (Oloyin)",
+        "category": "Rice & Grains",
+        "price": 2800,
+        "unit": "2kg",
+        "emoji": "🫘",
+        "image": "",
+        "featured": true
+    },
+    {
+        "id": 4,
+        "name": "White Garri",
+        "category": "Rice & Grains",
+        "price": 2500,
+        "unit": "4kg",
+        "emoji": "🌾",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 5,
+        "name": "Semovita",
+        "category": "Rice & Grains",
+        "price": 3600,
+        "unit": "2kg",
+        "emoji": "🌾",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 6,
+        "name": "Spaghetti",
+        "category": "Rice & Grains",
+        "price": 1100,
+        "unit": "500g",
+        "emoji": "🍝",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 7,
+        "name": "Vegetable Oil",
+        "category": "Cooking Oils",
+        "price": 9800,
+        "unit": "5 litres",
+        "emoji": "🛢️",
+        "image": "",
+        "featured": true
+    },
+    {
+        "id": 8,
+        "name": "Red Palm Oil",
+        "category": "Cooking Oils",
+        "price": 3500,
+        "unit": "1 litre",
+        "emoji": "🛢️",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 9,
+        "name": "Groundnut Oil",
+        "category": "Cooking Oils",
+        "price": 4800,
+        "unit": "2 litres",
+        "emoji": "🛢️",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 10,
+        "name": "Indomie Chicken Noodles",
+        "category": "Noodles & Pasta",
+        "price": 9500,
+        "unit": "Carton (40)",
+        "emoji": "🍜",
+        "image": "",
+        "featured": true
+    },
+    {
+        "id": 11,
+        "name": "Indomie Onion Chicken",
+        "category": "Noodles & Pasta",
+        "price": 280,
+        "unit": "Single",
+        "emoji": "🍜",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 12,
+        "name": "Macaroni",
+        "category": "Noodles & Pasta",
+        "price": 1000,
+        "unit": "500g",
+        "emoji": "🍝",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 13,
+        "name": "Peak Milk Powder",
+        "category": "Beverages",
+        "price": 5200,
+        "unit": "900g tin",
+        "emoji": "🥛",
+        "image": "",
+        "featured": true
+    },
+    {
+        "id": 14,
+        "name": "Milo Tin",
+        "category": "Beverages",
+        "price": 4100,
+        "unit": "800g",
+        "emoji": "☕",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 15,
+        "name": "Lipton Tea (25 bags)",
+        "category": "Beverages",
+        "price": 1300,
+        "unit": "Pack",
+        "emoji": "🍵",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 16,
+        "name": "Bottled Water",
+        "category": "Beverages",
+        "price": 2400,
+        "unit": "Pack of 12",
+        "emoji": "💧",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 17,
+        "name": "Coca-Cola",
+        "category": "Beverages",
+        "price": 3600,
+        "unit": "Pack of 12",
+        "emoji": "🥤",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 18,
+        "name": "Sugar",
+        "category": "Provisions",
+        "price": 2200,
+        "unit": "1kg",
+        "emoji": "🧂",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 19,
+        "name": "Iodised Salt",
+        "category": "Provisions",
+        "price": 500,
+        "unit": "500g",
+        "emoji": "🧂",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 20,
+        "name": "Tomato Paste (Gino)",
+        "category": "Provisions",
+        "price": 2100,
+        "unit": "Pack of 10",
+        "emoji": "🍅",
+        "image": "",
+        "featured": true
+    },
+    {
+        "id": 21,
+        "name": "Seasoning Cubes (Maggi)",
+        "category": "Provisions",
+        "price": 1800,
+        "unit": "Box of 50",
+        "emoji": "🧊",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 22,
+        "name": "Sliced Bread",
+        "category": "Provisions",
+        "price": 1500,
+        "unit": "Large loaf",
+        "emoji": "🍞",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 23,
+        "name": "Fresh Tomatoes",
+        "category": "Fresh Produce",
+        "price": 3000,
+        "unit": "Basket",
+        "emoji": "🍅",
+        "image": "",
+        "featured": true
+    },
+    {
+        "id": 24,
+        "name": "Onions",
+        "category": "Fresh Produce",
+        "price": 2500,
+        "unit": "2kg",
+        "emoji": "🧅",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 25,
+        "name": "Plantain",
+        "category": "Fresh Produce",
+        "price": 2000,
+        "unit": "Bunch",
+        "emoji": "🍌",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 26,
+        "name": "Yam Tubers",
+        "category": "Fresh Produce",
+        "price": 4500,
+        "unit": "3 medium",
+        "emoji": "🍠",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 27,
+        "name": "Frozen Chicken",
+        "category": "Meat & Fish",
+        "price": 6500,
+        "unit": "1.5kg",
+        "emoji": "🍗",
+        "image": "",
+        "featured": true
+    },
+    {
+        "id": 28,
+        "name": "Titus Fish (Mackerel)",
+        "category": "Meat & Fish",
+        "price": 7000,
+        "unit": "2kg",
+        "emoji": "🐟",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 29,
+        "name": "Eggs",
+        "category": "Meat & Fish",
+        "price": 3800,
+        "unit": "Crate (30)",
+        "emoji": "🥚",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 30,
+        "name": "Detergent Powder",
+        "category": "Household",
+        "price": 1900,
+        "unit": "1kg",
+        "emoji": "🧺",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 31,
+        "name": "Dishwashing Liquid",
+        "category": "Household",
+        "price": 1400,
+        "unit": "750ml",
+        "emoji": "🧴",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 32,
+        "name": "Toilet Roll",
+        "category": "Household",
+        "price": 2600,
+        "unit": "Pack of 10",
+        "emoji": "🧻",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 33,
+        "name": "Bath Soap",
+        "category": "Personal Care",
+        "price": 2400,
+        "unit": "Pack of 6",
+        "emoji": "🧼",
+        "image": "",
+        "featured": false
+    },
+    {
+        "id": 34,
+        "name": "Toothpaste",
+        "category": "Personal Care",
+        "price": 900,
+        "unit": "120g",
+        "emoji": "🪥",
+        "image": "",
+        "featured": false
+    }
+]
