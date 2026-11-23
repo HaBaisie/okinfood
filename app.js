@@ -70,6 +70,18 @@ function row(title, cat, list) {
     <div class="hscroll">${list.slice(0, 12).map(card).join('')}</div></section>`;
 }
 
+// Category tile photos: reuse a verified product photo from that category
+const TILE_PHOTO = {
+  'Naija Ingredients': 'yam-medium', 'Rice, Beans & Staples': 'brown-beans-oloyin', 'Soup & Cooking Essentials': 'red-palm-oil',
+  'Meat, Poultry & Fish': 'titus-fish-mackerel', 'Naija Snacks': 'plantain-chips', 'Drinks & Dairy': 'chivita-active-citrus',
+  'Noodles & Breakfast': 'golden-penny-oats', 'Household & Personal Care': 'detergent-powder', 'Fruits & Vegetables': 'orange',
+  'Spices & Seasoning': 'turmeric', 'Breakfast & Baking': 'honey', 'Tinned Foods': 'tinned-tomatoes',
+};
+function tilePhoto(cat) {
+  const slug = TILE_PHOTO[cat] || (products.find(p => p.category === cat) || {}).slug;
+  return slug ? `images/products/${slug}.jpg` : '';
+}
+
 // ---------- views ----------
 function viewHome() {
   const by = c => products.filter(p => p.category === c);
@@ -86,11 +98,13 @@ function viewHome() {
     <div><b>Delivery to your door</b><span>Free over ${naira(STORE.freeOver)}</span></div>
     <div><b>Pay your way</b><span>On delivery or bank transfer</span></div>
   </section>
-  <section class="tiles">${categories().map(c => `<a class="tile" href="#/shop?cat=${encodeURIComponent(c.name)}" style="background-image:url(images/categories/${slugify(c.name)}.jpg)"><span>${esc(c.name)}</span></a>`).join('')}</section>
+  <section class="tiles">${categories().map(c => `<a class="tile" href="#/shop?cat=${encodeURIComponent(c.name)}" style="background-image:url(${tilePhoto(c.name)})"><span>${esc(c.name)}</span></a>`).join('')}</section>
   ${row('Naija Ingredients', 'Naija Ingredients', by('Naija Ingredients'))}
   ${deals.length ? row('Deals', '', deals) : ''}
   ${row('Rice, Beans & Staples', 'Rice, Beans & Staples', by('Rice, Beans & Staples'))}
   ${row('Soup & Cooking Essentials', 'Soup & Cooking Essentials', by('Soup & Cooking Essentials'))}
+  ${row('Fruits & Vegetables', 'Fruits & Vegetables', by('Fruits & Vegetables'))}
+  ${row('Spices & Seasoning', 'Spices & Seasoning', by('Spices & Seasoning'))}
   ${row('Naija Snacks', 'Naija Snacks', by('Naija Snacks'))}
   ${row('Drinks & Dairy', 'Drinks & Dairy', by('Drinks & Dairy'))}`;
 }

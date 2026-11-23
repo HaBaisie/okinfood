@@ -313,5 +313,221 @@
   "unit": "Pack of 10",
   "featured": false,
   "slug": "toilet-roll"
+ },
+ {
+  "id": 36,
+  "name": "Oranges",
+  "category": "Fruits & Vegetables",
+  "price": 2000,
+  "unit": "Pack of 10",
+  "featured": false,
+  "slug": "orange"
+ },
+ {
+  "id": 37,
+  "name": "Apples",
+  "category": "Fruits & Vegetables",
+  "price": 3000,
+  "unit": "Pack of 6",
+  "featured": false,
+  "slug": "apple"
+ },
+ {
+  "id": 38,
+  "name": "Watermelon",
+  "category": "Fruits & Vegetables",
+  "price": 3500,
+  "unit": "Each",
+  "featured": false,
+  "slug": "watermelon"
+ },
+ {
+  "id": 39,
+  "name": "Mangoes",
+  "category": "Fruits & Vegetables",
+  "price": 2500,
+  "unit": "Pack of 6",
+  "featured": false,
+  "slug": "mango"
+ },
+ {
+  "id": 40,
+  "name": "Carrots",
+  "category": "Fruits & Vegetables",
+  "price": 1500,
+  "unit": "1kg",
+  "featured": false,
+  "slug": "carrots"
+ },
+ {
+  "id": 41,
+  "name": "Cabbage",
+  "category": "Fruits & Vegetables",
+  "price": 1800,
+  "unit": "Each",
+  "featured": false,
+  "slug": "cabbage"
+ },
+ {
+  "id": 42,
+  "name": "Garlic",
+  "category": "Fruits & Vegetables",
+  "price": 1000,
+  "unit": "Pack",
+  "featured": false,
+  "slug": "garlic"
+ },
+ {
+  "id": 43,
+  "name": "Cassava Tubers",
+  "category": "Fruits & Vegetables",
+  "price": 2000,
+  "unit": "2kg",
+  "featured": false,
+  "slug": "cassava"
+ },
+ {
+  "id": 44,
+  "name": "Lettuce",
+  "category": "Fruits & Vegetables",
+  "price": 1200,
+  "unit": "Each",
+  "featured": false,
+  "slug": "lettuce"
+ },
+ {
+  "id": 45,
+  "name": "Avocado",
+  "category": "Fruits & Vegetables",
+  "price": 1500,
+  "unit": "Pack of 3",
+  "featured": false,
+  "slug": "avocado"
+ },
+ {
+  "id": 46,
+  "name": "Lemons",
+  "category": "Fruits & Vegetables",
+  "price": 1000,
+  "unit": "Pack of 5",
+  "featured": false,
+  "slug": "lemon"
+ },
+ {
+  "id": 47,
+  "name": "Coconut",
+  "category": "Fruits & Vegetables",
+  "price": 800,
+  "unit": "Each",
+  "featured": false,
+  "slug": "coconut"
+ },
+ {
+  "id": 48,
+  "name": "Corn on the Cob",
+  "category": "Fruits & Vegetables",
+  "price": 1500,
+  "unit": "Pack of 4",
+  "featured": false,
+  "slug": "sweet-corn"
+ },
+ {
+  "id": 49,
+  "name": "Cloves",
+  "category": "Spices & Seasoning",
+  "price": 900,
+  "unit": "50g",
+  "featured": false,
+  "slug": "cloves"
+ },
+ {
+  "id": 50,
+  "name": "Nutmeg",
+  "category": "Spices & Seasoning",
+  "price": 800,
+  "unit": "50g",
+  "featured": false,
+  "slug": "nutmeg"
+ },
+ {
+  "id": 51,
+  "name": "Bay Leaves",
+  "category": "Spices & Seasoning",
+  "price": 500,
+  "unit": "Pack",
+  "featured": false,
+  "slug": "bay-leaves"
+ },
+ {
+  "id": 52,
+  "name": "Turmeric Powder",
+  "category": "Spices & Seasoning",
+  "price": 900,
+  "unit": "100g",
+  "featured": false,
+  "slug": "turmeric"
+ },
+ {
+  "id": 53,
+  "name": "Cinnamon Sticks",
+  "category": "Spices & Seasoning",
+  "price": 900,
+  "unit": "Pack",
+  "featured": false,
+  "slug": "cinnamon"
+ },
+ {
+  "id": 54,
+  "name": "Dried Chilli Pepper",
+  "category": "Spices & Seasoning",
+  "price": 1200,
+  "unit": "100g",
+  "featured": false,
+  "slug": "dried-chilli"
+ },
+ {
+  "id": 55,
+  "name": "Honey",
+  "category": "Breakfast & Baking",
+  "price": 5500,
+  "unit": "500ml jar",
+  "featured": false,
+  "slug": "honey"
+ },
+ {
+  "id": 56,
+  "name": "Wheat Flour",
+  "category": "Breakfast & Baking",
+  "price": 2800,
+  "unit": "2kg",
+  "featured": false,
+  "slug": "wheat-flour"
+ },
+ {
+  "id": 57,
+  "name": "Butter",
+  "category": "Breakfast & Baking",
+  "price": 2500,
+  "unit": "250g",
+  "featured": false,
+  "slug": "butter"
+ },
+ {
+  "id": 58,
+  "name": "Sardines, Tinned",
+  "category": "Tinned Foods",
+  "price": 1200,
+  "unit": "Tin",
+  "featured": false,
+  "slug": "sardines"
+ },
+ {
+  "id": 59,
+  "name": "Tinned Tomatoes",
+  "category": "Tinned Foods",
+  "price": 1400,
+  "unit": "Tin",
+  "featured": false,
+  "slug": "tinned-tomatoes"
  }
 ]

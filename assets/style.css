@@ -29,7 +29,7 @@ h2{font-size:1.3rem;margin:0;font-weight:800;letter-spacing:-.01em}
 .cartlink{margin-left:auto;text-decoration:none;font-weight:700;white-space:nowrap}
 .badge{background:var(--red);color:#fff;border-radius:99px;padding:1px 8px;font-size:.8rem;margin-left:4px}
 .cats{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;border-top:1px solid var(--line)}
-.cats a{white-space:nowrap;text-decoration:none;padding:11px 14px;font-weight:600;font-size:.9rem;border-bottom:3px solid transparent}
+.cats a{flex:none;white-space:nowrap;text-decoration:none;padding:11px 14px;font-weight:600;font-size:.9rem;border-bottom:3px solid transparent}
 .cats a:hover,.cats a.on{color:var(--green);border-bottom-color:var(--green)}
 .toast{position:fixed;left:50%;bottom:78px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 18px;border-radius:6px;z-index:60;font-size:.9rem}
 
@@ -45,7 +45,8 @@ h2{font-size:1.3rem;margin:0;font-weight:800;letter-spacing:-.01em}
 .usp span{color:var(--mut);font-size:.88rem}
 .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px;margin-bottom:12px}
 .tile{position:relative;aspect-ratio:4/3;border-radius:10px;background:var(--soft) center/cover;display:flex;align-items:flex-end;text-decoration:none;overflow:hidden;border:1px solid var(--line)}
-.tile span{display:block;width:100%;padding:24px 12px 10px;font-weight:700;background:linear-gradient(transparent,rgba(255,255,255,.92) 60%);color:var(--ink)}
+.tile{aspect-ratio:1/1}
+.tile span{display:block;width:100%;padding:28px 12px 10px;font-weight:700;background:linear-gradient(transparent,rgba(0,0,0,.72));color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.35)}
 .tile:hover{border-color:var(--green)}
 
 /* product rows + cards */
