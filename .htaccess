@@ -1,0 +1,18 @@
+Options -Indexes
+DirectoryIndex index.php
+
+# Never serve config, database or includes
+<FilesMatch "^(config\.php)$">
+    Require all denied
+</FilesMatch>
+RewriteEngine On
+RewriteRule ^(data|inc)/ - [F,L]
+
+# Force HTTPS (enable once SSL is active on the domain)
+# RewriteCond %{HTTPS} off
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# No PHP execution inside uploads
+<IfModule mod_php.c>
+    php_flag engine off
+</IfModule>
