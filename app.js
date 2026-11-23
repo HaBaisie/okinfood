@@ -211,6 +211,16 @@ function viewDone() {
     <a class="btn" href="#/shop">Continue shopping</a></div>`;
 }
 
+let credits = {};
+function viewCredits() {
+  const rows = Object.entries(credits).map(([k, c]) => {
+    const p = products.find(x => 'products/' + x.slug === k);
+    return `<tr><td>${esc(p ? p.name : k)}</td><td>${esc(c.author)}</td><td><a href="${esc(c.page)}" target="_blank" rel="noopener">${esc(c.lic)}</a></td></tr>`;
+  }).join('');
+  return `<h1>Photo credits</h1><p class="muted">Product photos are from Wikimedia Commons and used under the licences shown.</p>
+    <div class="tablewrap"><table class="tbl"><thead><tr><th>Product</th><th>Photographer</th><th>Licence / source</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
 // ---------- chrome ----------
 function renderCartBar() {
   const bar = $('#cartbar'), ls = lines(), onCheckout = /^#\/(checkout|cart|done)/.test(location.hash);
@@ -222,7 +232,7 @@ function renderCartBar() {
 function route() {
   const [path, qs] = location.hash.slice(1).split('?');
   const params = new URLSearchParams(qs || '');
-  const views = { '/shop': () => viewShop(params), '/cart': viewCart, '/checkout': viewCheckout, '/done': viewDone };
+  const views = { '/shop': () => viewShop(params), '/cart': viewCart, '/checkout': viewCheckout, '/done': viewDone, '/credits': viewCredits };
   $('#app').innerHTML = (views[path] || viewHome)();
   document.title = (path === '/shop' && params.get('cat') ? params.get('cat') + ' · ' : '') + STORE.name;
   if (path === '/checkout') bindCheckout();
@@ -251,9 +261,10 @@ $('#menuBtn').addEventListener('click', () => $('#catnav').classList.toggle('ope
   $('#footinfo').innerHTML = `<div><b class="fh">${esc(STORE.name)}</b><p>Nigerian foodstuff, groceries and household items, delivered.</p></div>
     <div><b class="fh">Contact</b><p><a href="mailto:${esc(STORE.email)}">${esc(STORE.email)}</a></p>
     ${STORE.phone ? `<p><a href="https://wa.me/${esc(STORE.phone)}">WhatsApp</a></p>` : ''}${STORE.address ? `<p>${esc(STORE.address)}</p>` : ''}</div>
-    <div><b class="fh">Shop</b><p><a href="#/shop">All products</a></p><p><a href="#/shop?cat=Naija%20Ingredients">Naija ingredients</a></p><p><a href="#/cart">Basket</a></p></div>`;
+    <div><b class="fh">Shop</b><p><a href="#/shop">All products</a></p><p><a href="#/shop?cat=Naija%20Ingredients">Naija ingredients</a></p><p><a href="#/cart">Basket</a></p><p><a href="#/credits">Photo credits</a></p></div>`;
   try { products = (await (await fetch('products.json')).json()).filter(p => p.active !== false); }
   catch { $('#app').innerHTML = '<p>Sorry, products could not be loaded. Please refresh.</p>'; return; }
+  try { credits = await (await fetch('images/credits.json')).json(); } catch {}
   $('#catnav').innerHTML = `<a href="#/shop">All</a>` + categories().map(c => `<a href="#/shop?cat=${encodeURIComponent(c.name)}">${esc(c.name)}</a>`).join('');
   $('#badge').textContent = count(); route(); addEventListener('hashchange', route);
 })();

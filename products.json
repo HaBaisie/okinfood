@@ -28,7 +28,7 @@
  },
  {
   "id": 4,
-  "name": "Ewedu",
+  "name": "Ewedu (Jute Leaves)",
   "category": "Naija Ingredients",
   "price": 700,
   "unit": "Bunch",
@@ -37,25 +37,7 @@
  },
  {
   "id": 5,
-  "name": "Efo Shoko",
-  "category": "Naija Ingredients",
-  "price": 700,
-  "unit": "Bunch, cut up",
-  "featured": false,
-  "slug": "efo-shoko"
- },
- {
-  "id": 6,
-  "name": "Ugu Leaf (Pumpkin Leaf)",
-  "category": "Naija Ingredients",
-  "price": 800,
-  "unit": "Bunch",
-  "featured": false,
-  "slug": "ugu-leaf-pumpkin-leaf"
- },
- {
-  "id": 7,
-  "name": "Rodo Pepper (Scotch Bonnet)",
+  "name": "Scotch Bonnet Peppers (Rodo)",
   "category": "Naija Ingredients",
   "price": 1500,
   "unit": "Pack of 7",
@@ -63,8 +45,8 @@
   "slug": "rodo-pepper-scotch-bonnet"
  },
  {
-  "id": 8,
-  "name": "Tatashe (Red Bell Pepper)",
+  "id": 6,
+  "name": "Red Bell Pepper (Tatashe)",
   "category": "Naija Ingredients",
   "price": 1200,
   "unit": "Pack of 5",
@@ -72,7 +54,7 @@
   "slug": "tatashe-red-bell-pepper"
  },
  {
-  "id": 9,
+  "id": 7,
   "name": "Fresh Tomatoes",
   "category": "Naija Ingredients",
   "price": 3000,
@@ -81,25 +63,7 @@
   "slug": "fresh-tomatoes"
  },
  {
-  "id": 10,
-  "name": "Onions",
-  "category": "Naija Ingredients",
-  "price": 2500,
-  "unit": "2kg",
-  "featured": false,
-  "slug": "onions"
- },
- {
-  "id": 11,
-  "name": "Scent Leaf (Efirin)",
-  "category": "Naija Ingredients",
-  "price": 300,
-  "unit": "Bunch",
-  "featured": false,
-  "slug": "scent-leaf-efirin"
- },
- {
-  "id": 12,
+  "id": 8,
   "name": "Fresh Ginger",
   "category": "Naija Ingredients",
   "price": 1500,
@@ -108,7 +72,7 @@
   "slug": "fresh-ginger"
  },
  {
-  "id": 13,
+  "id": 9,
   "name": "Sweet Potatoes",
   "category": "Naija Ingredients",
   "price": 2800,
@@ -117,36 +81,8 @@
   "slug": "sweet-potatoes"
  },
  {
-  "id": 14,
-  "name": "Ofada Rice",
-  "category": "Rice, Beans & Staples",
-  "price": 16800,
-  "unit": "Paint bucket (~4L)",
-  "featured": true,
-  "slug": "ofada-rice"
- },
- {
-  "id": 15,
-  "name": "Long Grain Parboiled Rice",
-  "category": "Rice, Beans & Staples",
-  "price": 78000,
-  "unit": "50kg bag",
-  "featured": true,
-  "old": 82000,
-  "slug": "long-grain-parboiled-rice"
- },
- {
-  "id": 16,
-  "name": "Parboiled Rice",
-  "category": "Rice, Beans & Staples",
-  "price": 4200,
-  "unit": "5kg",
-  "featured": false,
-  "slug": "parboiled-rice"
- },
- {
-  "id": 17,
-  "name": "Brown Beans (Oloyin)",
+  "id": 10,
+  "name": "Brown Beans",
   "category": "Rice, Beans & Staples",
   "price": 2800,
   "unit": "2kg",
@@ -154,8 +90,8 @@
   "slug": "brown-beans-oloyin"
  },
  {
-  "id": 18,
-  "name": "White Beans (Drum)",
+  "id": 11,
+  "name": "White Beans",
   "category": "Rice, Beans & Staples",
   "price": 2600,
   "unit": "2kg",
@@ -163,16 +99,7 @@
   "slug": "white-beans-drum"
  },
  {
-  "id": 19,
-  "name": "White Garri (Ijebu)",
-  "category": "Rice, Beans & Staples",
-  "price": 2500,
-  "unit": "4kg",
-  "featured": true,
-  "slug": "white-garri-ijebu"
- },
- {
-  "id": 20,
+  "id": 12,
   "name": "Yellow Garri",
   "category": "Rice, Beans & Staples",
   "price": 2700,
@@ -181,43 +108,7 @@
   "slug": "yellow-garri"
  },
  {
-  "id": 21,
-  "name": "Semovita",
-  "category": "Rice, Beans & Staples",
-  "price": 3600,
-  "unit": "2kg",
-  "featured": false,
-  "slug": "semovita"
- },
- {
-  "id": 22,
-  "name": "Poundo Yam Flour",
-  "category": "Rice, Beans & Staples",
-  "price": 3800,
-  "unit": "1.8kg",
-  "featured": false,
-  "slug": "poundo-yam-flour"
- },
- {
-  "id": 23,
-  "name": "Amala (Elubo)",
-  "category": "Rice, Beans & Staples",
-  "price": 2400,
-  "unit": "1kg",
-  "featured": false,
-  "slug": "amala-elubo"
- },
- {
-  "id": 24,
-  "name": "Spaghetti",
-  "category": "Rice, Beans & Staples",
-  "price": 1100,
-  "unit": "500g",
-  "featured": false,
-  "slug": "spaghetti"
- },
- {
-  "id": 25,
+  "id": 13,
   "name": "Macaroni",
   "category": "Rice, Beans & Staples",
   "price": 1000,
@@ -226,8 +117,8 @@
   "slug": "macaroni"
  },
  {
-  "id": 26,
-  "name": "Egusi, Ground",
+  "id": 14,
+  "name": "Egusi (Melon Seeds)",
   "category": "Soup & Cooking Essentials",
   "price": 3500,
   "unit": "1kg",
@@ -235,8 +126,8 @@
   "slug": "egusi-ground"
  },
  {
-  "id": 27,
-  "name": "Ogbono, Ground",
+  "id": 15,
+  "name": "Ogbono (Dry Seeds)",
   "category": "Soup & Cooking Essentials",
   "price": 4500,
   "unit": "500g",
@@ -244,8 +135,8 @@
   "slug": "ogbono-ground"
  },
  {
-  "id": 28,
-  "name": "Crayfish, Ground",
+  "id": 16,
+  "name": "Dried Crayfish",
   "category": "Soup & Cooking Essentials",
   "price": 2800,
   "unit": "250g",
@@ -253,34 +144,7 @@
   "slug": "crayfish-ground"
  },
  {
-  "id": 29,
-  "name": "Iru (Locust Beans)",
-  "category": "Soup & Cooking Essentials",
-  "price": 600,
-  "unit": "Small pack",
-  "featured": false,
-  "slug": "iru-locust-beans"
- },
- {
-  "id": 30,
-  "name": "Stockfish Head",
-  "category": "Soup & Cooking Essentials",
-  "price": 9500,
-  "unit": "Medium",
-  "featured": false,
-  "slug": "stockfish-head"
- },
- {
-  "id": 31,
-  "name": "Ponmo",
-  "category": "Soup & Cooking Essentials",
-  "price": 2500,
-  "unit": "500g",
-  "featured": false,
-  "slug": "ponmo"
- },
- {
-  "id": 32,
+  "id": 17,
   "name": "Red Palm Oil",
   "category": "Soup & Cooking Essentials",
   "price": 3500,
@@ -289,35 +153,7 @@
   "slug": "red-palm-oil"
  },
  {
-  "id": 33,
-  "name": "Vegetable Oil",
-  "category": "Soup & Cooking Essentials",
-  "price": 9800,
-  "unit": "5 litres",
-  "featured": true,
-  "old": 10500,
-  "slug": "vegetable-oil"
- },
- {
-  "id": 34,
-  "name": "Groundnut Oil",
-  "category": "Soup & Cooking Essentials",
-  "price": 4800,
-  "unit": "2 litres",
-  "featured": false,
-  "slug": "groundnut-oil"
- },
- {
-  "id": 35,
-  "name": "Pepper Soup Spice, Mixed",
-  "category": "Soup & Cooking Essentials",
-  "price": 750,
-  "unit": "Pack",
-  "featured": false,
-  "slug": "pepper-soup-spice-mixed"
- },
- {
-  "id": 36,
+  "id": 18,
   "name": "Curry Powder",
   "category": "Soup & Cooking Essentials",
   "price": 700,
@@ -326,8 +162,8 @@
   "slug": "curry-powder"
  },
  {
-  "id": 37,
-  "name": "Maggi Star Seasoning Cubes",
+  "id": 19,
+  "name": "Seasoning Cubes",
   "category": "Soup & Cooking Essentials",
   "price": 1800,
   "unit": "Box of 50",
@@ -335,8 +171,8 @@
   "slug": "maggi-star-seasoning-cubes"
  },
  {
-  "id": 38,
-  "name": "Gino Tomato Paste",
+  "id": 20,
+  "name": "Tomato Paste, Tinned",
   "category": "Soup & Cooking Essentials",
   "price": 2100,
   "unit": "Pack of 10",
@@ -344,8 +180,8 @@
   "slug": "gino-tomato-paste"
  },
  {
-  "id": 39,
-  "name": "Iodised Salt",
+  "id": 21,
+  "name": "Table Salt",
   "category": "Soup & Cooking Essentials",
   "price": 500,
   "unit": "500g",
@@ -353,8 +189,8 @@
   "slug": "iodised-salt"
  },
  {
-  "id": 40,
-  "name": "Frozen Chicken",
+  "id": 22,
+  "name": "Whole Chicken",
   "category": "Meat, Poultry & Fish",
   "price": 6500,
   "unit": "1.5kg",
@@ -362,17 +198,8 @@
   "slug": "frozen-chicken"
  },
  {
-  "id": 41,
-  "name": "Turkey Wings",
-  "category": "Meat, Poultry & Fish",
-  "price": 7800,
-  "unit": "1kg",
-  "featured": false,
-  "slug": "turkey-wings"
- },
- {
-  "id": 42,
-  "name": "Titus Fish (Mackerel)",
+  "id": 23,
+  "name": "Mackerel, Fresh",
   "category": "Meat, Poultry & Fish",
   "price": 7000,
   "unit": "2kg",
@@ -380,17 +207,8 @@
   "slug": "titus-fish-mackerel"
  },
  {
-  "id": 43,
-  "name": "Croaker Fish",
-  "category": "Meat, Poultry & Fish",
-  "price": 6000,
-  "unit": "1kg",
-  "featured": false,
-  "slug": "croaker-fish"
- },
- {
-  "id": 44,
-  "name": "Beef, Assorted",
+  "id": 24,
+  "name": "Beef, Raw",
   "category": "Meat, Poultry & Fish",
   "price": 5500,
   "unit": "1kg",
@@ -398,16 +216,7 @@
   "slug": "beef-assorted"
  },
  {
-  "id": 45,
-  "name": "Goat Meat",
-  "category": "Meat, Poultry & Fish",
-  "price": 8500,
-  "unit": "1kg",
-  "featured": false,
-  "slug": "goat-meat"
- },
- {
-  "id": 46,
+  "id": 25,
   "name": "Eggs",
   "category": "Meat, Poultry & Fish",
   "price": 3800,
@@ -416,7 +225,7 @@
   "slug": "eggs"
  },
  {
-  "id": 47,
+  "id": 26,
   "name": "Plantain Chips",
   "category": "Naija Snacks",
   "price": 600,
@@ -425,16 +234,7 @@
   "slug": "plantain-chips"
  },
  {
-  "id": 48,
-  "name": "Chin Chin",
-  "category": "Naija Snacks",
-  "price": 1500,
-  "unit": "500g",
-  "featured": true,
-  "slug": "chin-chin"
- },
- {
-  "id": 49,
+  "id": 27,
   "name": "Kuli Kuli",
   "category": "Naija Snacks",
   "price": 800,
@@ -443,7 +243,7 @@
   "slug": "kuli-kuli"
  },
  {
-  "id": 50,
+  "id": 28,
   "name": "Roasted Groundnuts",
   "category": "Naija Snacks",
   "price": 700,
@@ -452,44 +252,8 @@
   "slug": "roasted-groundnuts"
  },
  {
-  "id": 51,
-  "name": "Gala Sausage Roll",
-  "category": "Naija Snacks",
-  "price": 300,
-  "unit": "Single",
-  "featured": false,
-  "slug": "gala-sausage-roll"
- },
- {
-  "id": 52,
-  "name": "Peak Milk Powder",
-  "category": "Drinks & Dairy",
-  "price": 5200,
-  "unit": "900g tin",
-  "featured": true,
-  "slug": "peak-milk-powder"
- },
- {
-  "id": 53,
-  "name": "Milo",
-  "category": "Drinks & Dairy",
-  "price": 4100,
-  "unit": "800g tin",
-  "featured": false,
-  "slug": "milo"
- },
- {
-  "id": 54,
-  "name": "Lipton Tea",
-  "category": "Drinks & Dairy",
-  "price": 1300,
-  "unit": "25 bags",
-  "featured": false,
-  "slug": "lipton-tea"
- },
- {
-  "id": 55,
-  "name": "Chivita Active Citrus",
+  "id": 29,
+  "name": "Orange Juice",
   "category": "Drinks & Dairy",
   "price": 2210,
   "unit": "1 litre",
@@ -497,26 +261,17 @@
   "slug": "chivita-active-citrus"
  },
  {
-  "id": 56,
-  "name": "Coca-Cola",
+  "id": 30,
+  "name": "Coca-Cola, Glass Bottle",
   "category": "Drinks & Dairy",
   "price": 5880,
-  "unit": "Pack of 12 (50cl)",
+  "unit": "Bottle",
   "featured": false,
   "slug": "coca-cola"
  },
  {
-  "id": 57,
-  "name": "Bottled Water",
-  "category": "Drinks & Dairy",
-  "price": 2400,
-  "unit": "Pack of 12",
-  "featured": false,
-  "slug": "bottled-water"
- },
- {
-  "id": 58,
-  "name": "Dano UHT Milk",
+  "id": 31,
+  "name": "Fresh Milk",
   "category": "Drinks & Dairy",
   "price": 3835,
   "unit": "1 litre",
@@ -524,26 +279,8 @@
   "slug": "dano-uht-milk"
  },
  {
-  "id": 59,
-  "name": "Indomie Chicken Noodles",
-  "category": "Noodles & Breakfast",
-  "price": 9500,
-  "unit": "Carton of 40",
-  "featured": true,
-  "slug": "indomie-chicken-noodles"
- },
- {
-  "id": 60,
-  "name": "Indomie Onion Chicken",
-  "category": "Noodles & Breakfast",
-  "price": 280,
-  "unit": "Single pack",
-  "featured": false,
-  "slug": "indomie-onion-chicken"
- },
- {
-  "id": 61,
-  "name": "Golden Penny Oats",
+  "id": 32,
+  "name": "Rolled Oats",
   "category": "Noodles & Breakfast",
   "price": 2400,
   "unit": "500g",
@@ -551,16 +288,7 @@
   "slug": "golden-penny-oats"
  },
  {
-  "id": 62,
-  "name": "Sliced Bread",
-  "category": "Noodles & Breakfast",
-  "price": 1500,
-  "unit": "Large loaf",
-  "featured": false,
-  "slug": "sliced-bread"
- },
- {
-  "id": 63,
+  "id": 33,
   "name": "Sugar",
   "category": "Noodles & Breakfast",
   "price": 2200,
@@ -569,7 +297,7 @@
   "slug": "sugar"
  },
  {
-  "id": 64,
+  "id": 34,
   "name": "Detergent Powder",
   "category": "Household & Personal Care",
   "price": 1900,
@@ -578,39 +306,12 @@
   "slug": "detergent-powder"
  },
  {
-  "id": 65,
-  "name": "Dishwashing Liquid",
-  "category": "Household & Personal Care",
-  "price": 1400,
-  "unit": "750ml",
-  "featured": false,
-  "slug": "dishwashing-liquid"
- },
- {
-  "id": 66,
+  "id": 35,
   "name": "Toilet Roll",
   "category": "Household & Personal Care",
   "price": 2600,
   "unit": "Pack of 10",
   "featured": false,
   "slug": "toilet-roll"
- },
- {
-  "id": 67,
-  "name": "Bath Soap",
-  "category": "Household & Personal Care",
-  "price": 2400,
-  "unit": "Pack of 6",
-  "featured": false,
-  "slug": "bath-soap"
- },
- {
-  "id": 68,
-  "name": "Colgate Toothpaste",
-  "category": "Household & Personal Care",
-  "price": 900,
-  "unit": "120g",
-  "featured": false,
-  "slug": "colgate-toothpaste"
  }
 ]
