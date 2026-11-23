@@ -3,30 +3,38 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Okin Food Supermarket · Fresh groceries delivered</title>
-<meta name="description" content="Order rice, oil, provisions, fresh produce and more online from Okin Food Supermarket. Home delivery or store pickup.">
+<title>Okin Food Supermarket</title>
+<meta name="description" content="Order Nigerian foodstuff, groceries and household items online from Okin Food Supermarket.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+<div class="announce" id="announce"></div>
 <header class="top">
   <div class="wrap bar">
-    <a class="logo" href="#/">🛒 <span>Okin<b>Food</b></span></a>
-    <form class="search" id="searchForm">
-      <input type="search" id="q" placeholder="Search rice, oil, milk…" aria-label="Search products">
-      <button aria-label="Search">Search</button>
+    <button class="menubtn" id="menuBtn" aria-label="Browse categories">Menu</button>
+    <a class="logo" href="#/">OKIN<span>FOOD</span></a>
+    <form class="search" id="searchForm" role="search">
+      <input type="search" id="q" placeholder="Search for yam, rice, palm oil…" aria-label="Search products">
+      <button>Search</button>
     </form>
-    <a class="cartlink" href="#/cart">Cart <span class="badge" id="badge">0</span></a>
+    <a class="cartlink" href="#/cart">Basket <span class="badge" id="badge">0</span></a>
   </div>
-  <nav class="wrap cats" id="catnav"></nav>
+  <nav class="wrap cats" id="catnav" aria-label="Categories"></nav>
 </header>
-<div class="wrap"><div class="flash" id="toast" hidden></div></div>
-<main class="wrap" id="app"><p>Loading…</p></main>
+<div class="toast" id="toast" hidden></div>
+<main class="wrap" id="app"><p class="muted" style="padding:40px 0">Loading…</p></main>
+
+<div class="cartbar" id="cartbar" hidden></div>
+
 <footer class="foot">
-  <div class="wrap" id="footinfo"></div>
-  <p class="copy">© <span id="yr"></span> Okin Food Supermarket</p>
+  <div class="wrap cols" id="footinfo"></div>
+  <p class="copy">© <span id="yr"></span> Okin Food Supermarket. All rights reserved.</p>
 </footer>
 
-<!-- Netlify Forms: this hidden form lets Netlify detect the "order" form. Orders are emailed from here. -->
+<!-- Netlify Forms: lets Netlify detect the "order" form. Orders are emailed from here. -->
 <form name="order" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
   <input name="bot-field">
   <input name="ref"><input name="name"><input name="phone"><input name="email">
